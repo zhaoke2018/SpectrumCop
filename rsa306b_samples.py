@@ -198,7 +198,7 @@ def main():
     
     while True:
         #Spectrum Analyzer acquisition
-        print("File written to memory: "+ outputfilectr)
+        print("File written to memory: "+ str(outputfilectr))
         output_file = open(working_directory+'\output'+str(outputfilectr)+'.txt','w')
         
         spanctr = 1
